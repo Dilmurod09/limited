@@ -434,3 +434,8 @@ body{ background: var(--bg); color: var(--text); }
 @media (max-width: 560px){
   .why__grid{ grid-template-columns: 1fr; }
 }
+@media (max-width: 920px){
+  .header .btn.btn--primary[href="#contacts"]{
+    display: none !important;
+  }
+}
